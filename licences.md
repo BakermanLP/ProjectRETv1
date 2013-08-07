@@ -17,7 +17,7 @@ The user of Minecraft Forge is allowed to redistribute Minecraft Forge in partia
 * Licence: 
 Q: Can I add this mod to a mod pack?
 A: Yes, as long as you give proper credit (Linking back to this thread, etc.), and don't make any money off of it (Adf.ly, etc.).  You don't have to get explicit permission from us either, just follow those two rules. 
-Source URL http://www.minecraftforum.net/topic/1495041- (FAQ)
+* Source URL http://www.minecraftforum.net/topic/1495041- (FAQ)
 
 ## CompactSolars
 * Author: cpw
@@ -101,15 +101,8 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 * Source URL: http://www.railcraft.info/forum/?mingleforumaction=viewtopic&t=199
 https://raw.github.com/BakermanLP/MinecraftLetsPlay/master/permissions/railcraft.png
 
+## Project: Red
+* Authors: Mr_TJP
+* Licence: I have absolutely no problem with you guys using it in Mod Packs.  If you wish to include it, PM me and let me know.  This is not for permission, I just want to know as an FYI how many mod packs its in.  Texture pack makers, go crazy, but its very hard to understand the texture stitching.
+* Source URL: http://www.minecraftforum.net/topic/1885652-
 
-### mods
-* obsidiplates-1.5.2-universal-1.5.0.13.jar <http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/>
-
-Pending Permissions
-
-* Paintings++1.5.2 v4.0small.zip <http://www.minecraftforum.net/topic/1617109->
-* Factorization-0.7.37.jar <http://www.minecraftforum.net/topic/1351802->
-* [Forge]FurnitureMod2.8.4(FULL).zip <http://www.minecraftforum.net/topic/1114866-152forgesspsmp-mrcrayfishs-furniture-mod-v284-new-api-bug-fixes/page__view__findpost__p__23095581>
-
-* aeperipheral-universal <http://www.computercraft.info/forums2/index.php?/topic/12663-applied-energistics-peripheral/page__view__findpost__p__130534>
-* ZansMinimap1.5.2.zip <http://www.minecraftforum.net/topic/1116564-152-mamiyaotarus-mods-voxelmap-chatbubbles-autofarmer-etc/page__st__540#entry23145253>

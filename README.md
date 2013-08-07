@@ -24,6 +24,9 @@ The permissions, licences, author and links are here:
 * Natura-1.6.2-2.1.4.jar <http://www.minecraftforum.net/topic/1753754->
 * TConstruct-1.6.2-1.4.dev.25-patched.jar <http://www.minecraftforum.net/topic/1659892->
 * twilightforest-1.19.0.jar <http://www.minecraftforum.net/topic/561673->
+* ProjectRed-1.6.2-3.2.1.34.jar <http://www.minecraftforum.net/topic/1885652->
+* RopePlus-1.6.2.zip 
+* ZansMinimap <http://www.minecraftforum.net/topic/1116564->
 
 ### incomplete included mods
 * forestry-A-2.2.9.10.jar <http://ferestry.sengir.net/wiki.new/doku.php?id=main:downloads>
@@ -47,7 +50,6 @@ The permissions, licences, author and links are here:
 * Paintings++ <http://www.minecraftforum.net/topic/1617109->
 * PluginsforForestry <http://denoflionsx.info/>
 * StevesCarts2 <http://www.minecraftforum.net/topic/680276->
-* ZansMinimap <http://www.minecraftforum.net/topic/1116564->
 * Thaumcraft <http://www.minecraftforum.net/topic/1585216->
 
 ### mods that might be included
