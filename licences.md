@@ -108,11 +108,11 @@ https://raw.github.com/BakermanLP/MinecraftLetsPlay/master/permissions/railcraft
 
 ## Steves Carts 2
 * Authors: Vswe
-* Licence: Licence
-If you want to include Steve's Carts 2 alpha in a mod pack, public or private, you need to follow a few steps.
-1. Give me credit for the mod.
-2. Have permission from all mod authors whose mods are in the pack.
-3. Don't earn money on the pack.
+* Licence: 
+ If you want to include Steve's Carts 2 alpha in a mod pack, public or private, you need to follow a few steps.
+ 1. Give me credit for the mod.
+ 2. Have permission from all mod authors whose mods are in the pack.
+ 3. Don't earn money on the pack.
 
 If all those steps are followed you have my permission to include it in your mod pack. This licence might be change in the future.
 * Source URL: http://stevescarts2.wikispaces.com/
