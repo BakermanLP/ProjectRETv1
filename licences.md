@@ -106,3 +106,13 @@ https://raw.github.com/BakermanLP/MinecraftLetsPlay/master/permissions/railcraft
 * Licence: I have absolutely no problem with you guys using it in Mod Packs.  If you wish to include it, PM me and let me know.  This is not for permission, I just want to know as an FYI how many mod packs its in.  Texture pack makers, go crazy, but its very hard to understand the texture stitching.
 * Source URL: http://www.minecraftforum.net/topic/1885652-
 
+## Steves Carts 2
+* Authors: Vswe
+* Licence: Licence
+If you want to include Steve's Carts 2 alpha in a mod pack, public or private, you need to follow a few steps.
+1. Give me credit for the mod.
+2. Have permission from all mod authors whose mods are in the pack.
+3. Don't earn money on the pack.
+
+If all those steps are followed you have my permission to include it in your mod pack. This licence might be change in the future.
+* Source URL: http://stevescarts2.wikispaces.com/
