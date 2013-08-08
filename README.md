@@ -34,6 +34,7 @@ The permissions, licences, author and links are here:
 * ironchest-universal-1.6.2-5.3.20.519.zip <http://www.minecraftforum.net/topic/981855->
 * ComputerCraft1.56.zip <http://www.computercraft.info/download/>
 * OpenPeripheral-0.2.1-preview8.jar <http://www.openperipheral.info/openperipheral/>
+* Paintings++ 1.6.2v2.0.zip <http://www.minecraftforum.net/topic/1617109->
 
 ### incomplete included mods
 * forestry-A-2.2.9.10.jar <http://ferestry.sengir.net/wiki.new/doku.php?id=main:downloads>
@@ -48,7 +49,6 @@ The permissions, licences, author and links are here:
 * neiaddons <http://www.minecraftforum.net/topic/1803460->
 * NEIPlugins <https://bitbucket.org/mistaqur/nei_plugins/wiki/Home>
 * obsidiplates <http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/>
-* Paintings++ <http://www.minecraftforum.net/topic/1617109->
 * PluginsforForestry <http://denoflionsx.info/>
 * StevesCarts2 <http://www.minecraftforum.net/topic/680276->
 * Thaumcraft <http://www.minecraftforum.net/topic/1585216->

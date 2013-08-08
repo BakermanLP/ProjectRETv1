@@ -87,23 +87,28 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 ## GregtechMod
 * Author: GregoriusT
 * Licence: Gave me permission via PM and here is the screenshot:
-* Source URL: <https://raw.github.com/BakermanLP/MinecraftLetsPlay/master/permissions/gregtechmod.png>
+* Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/gregtechmod.png>
 
 ## DynamicLights
 * Author: AtomicStryker
 * Licence: Gave me permission via PM and here is the screenshot:
-* Source URL: <https://raw.github.com/BakermanLP/MinecraftLetsPlay/master/permissions/dynamiclights.png>
+* Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/dynamiclights.png>
 
 ## Ropes+
 * Author: AtomicStryker
 * Licence: Gave me permission via PM and here is the screenshot:
-* Source URL: <https://raw.github.com/BakermanLP/MinecraftLetsPlay/master/permissions/ropes-plus.png>
+* Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/ropes-plus.png>
 
 ## Railcraft
 * Author: CovertJaguar
 * Licence: Gave me permission via Forums Thread:
 * Source URL: http://www.railcraft.info/forum/?mingleforumaction=viewtopic&t=199
-https://raw.github.com/BakermanLP/MinecraftLetsPlay/master/permissions/railcraft.png
+https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/railcraft.png
+
+## Paintings++
+* Author: senpaisubaraki
+* Licence: Gave me permission via PM and here is the screenshot:
+* Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/paintings%2B%2B.png>
 
 ## Project: Red
 * Authors: Mr_TJP
