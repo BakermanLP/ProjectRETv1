@@ -13,9 +13,9 @@ The permissions, licences, author and links are here:
 
 ### mods
 * CodeChickenCore 0.9.0.3.jar <http://www.minecraftforum.net/topic/909223->
-* NotEnoughItems 1.6.0.9.jar <http://www.minecraftforum.net/topic/909223->
-* EnderStorage 1.4.3.1.jar <http://www.minecraftforum.net/topic/909223->
-* Translocator 1.1.0.6.jar <http://www.minecraftforum.net/topic/909223->
+* NotEnoughItems 1.6.1.2.jar <http://www.minecraftforum.net/topic/909223->
+* EnderStorage 1.4.3.3.jar <http://www.minecraftforum.net/topic/909223->
+* Translocator 1.1.0.7.jar <http://www.minecraftforum.net/topic/909223->
 * ChickenChunks 1.3.3.1.jar <http://www.minecraftforum.net/topic/909223->
 * buildcraft-universal-1.6.2-3.7.1.228.321.jar <http://www.mod-buildcraft.com/2013/06/22/buildcraft-3-7-1-for-minecraft-1-5-2/>
 * industrialcraft-2-1.118.401-lf.jar <http://ic2api.player.to:8080/job/IC2_lf/>
