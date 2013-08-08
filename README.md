@@ -52,6 +52,8 @@ The permissions, licences, author and links are here:
 * PluginsforForestry <http://denoflionsx.info/>
 * StevesCarts2 <http://www.minecraftforum.net/topic/680276->
 * Thaumcraft <http://www.minecraftforum.net/topic/1585216->
+* Pam's Harvestcraft <http://www.minecraftforum.net/topic/402069->
+* Hunger Overhaul <http://www.minecraftforum.net/topic/1813158->
 
 ### mods that might be included
 * ModularPowersuits <http://machinemuse.net/download.php>
