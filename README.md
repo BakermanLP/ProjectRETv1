@@ -32,17 +32,17 @@ The permissions, licences, author and links are here:
 * ZansMinimap <http://www.minecraftforum.net/topic/1116564->
 * appeng-rv12-b-mc162.zip <http://ae-mod.info/Downloads/>
 * ironchest-universal-1.6.2-5.3.20.519.zip <http://www.minecraftforum.net/topic/981855->
+* ComputerCraft1.56.zip <http://www.computercraft.info/download/>
+* OpenPeripheral-0.2.1-preview8.jar <http://www.openperipheral.info/openperipheral/>
 
 ### incomplete included mods
 * forestry-A-2.2.9.10.jar <http://ferestry.sengir.net/wiki.new/doku.php?id=main:downloads>
 
 ### mods to be included (some aren't released yet)
-* ComputerCraft <http://www.computercraft.info/download/>
 * aeperipheral-universal <http://www.computercraft.info/forums2/index.php?/topic/12663-applied-energistics-peripheral/>
 * extra-bees <http://www.minecraftforum.net/topic/1324321->
 * Factorization <http://www.minecraftforum.net/topic/1351802->
 * MineFactoryReloaded <http://www.minecraftforum.net/topic/1629898->
-* OpenPeripheral <http://www.openperipheral.info/openperipheral/>
 * Railcraft <http://www.railcraft.info/releases>
 * ThermalExpansion <http://thermalexpansion.wikispaces.com/Downloads>
 * neiaddons <http://www.minecraftforum.net/topic/1803460->

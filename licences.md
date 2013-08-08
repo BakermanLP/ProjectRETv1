@@ -72,16 +72,10 @@ The main restriction is that sources must be accessible. If you are only redistr
 All I really ask is that you make sure that you tell people that my mod is included. Something like "Applied Energistics by AlgorithmX2" with a link to this wiki would work nicely.
 * Source URL: http://ae-mod.info/Frequently-Asked-Questions/
 
-## OpenPeripheral, OpenCCSensors
-* Author: Mikeemoo
-* Licence: Yes, you can use these in your mod pack ;-)
-* Source URL: http://www.openperipheral.info/
-
 ## InventoryTweaks
 * Author: Kobata
 * Licence: Inventory Tweaks, being under the MIT License, is frequently used in modpacks. Feel free to redistribute it! My only request is to provide a link to either this thread or the mod's website.
 * Source URL: http://www.minecraftforum.net/topic/1720872-
-
 
 ## IronChests
 * Author: cpw
@@ -126,3 +120,13 @@ https://raw.github.com/BakermanLP/MinecraftLetsPlay/master/permissions/railcraft
 
 If all those steps are followed you have my permission to include it in your mod pack. This licence might be change in the future.
 * Source URL: http://stevescarts2.wikispaces.com/
+
+## ComputerCraft
+* Author: dan200
+* Licence: I give permission to include ComputerCraft in any and all Minecraft mod packs, provided it is included unmodified. There is no need to ask permission! If your modpack is popular, please consider making a donation to the development of the mod.
+* Source URL: http://www.computercraft.info/download/
+
+## OpenPeripheral, OpenCCSensors
+* Author: Mikeemoo
+* Licence: Yes, you can use these in your mod pack ;-)
+* Source URL: http://www.openperipheral.info/
