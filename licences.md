@@ -7,7 +7,7 @@ Distribution rights
 The user of Minecraft Forge is allowed to redistribute Minecraft Forge in partially, in totallity, or included in a distribution. When distributing binaries or class files, the user must provide means to obtain the sources of the distributed version of Minecraft Forge at no costs. This includes the files as well as any dependency that the code may rely on, including patches to minecraft original sources.  Modification of Minecraft Forge as well as dependencies, including patches to minecraft original sources, has to remain under the terms of the present license.
 * Source URL: http://sourceforge.net/p/minecraftforge/wiki/Minecraft%20Forge%20Public%20License%201.0/
 
-## CodeChickenCore, NotEnoughItems, EnderStorage, ChickenChunks
+## CodeChickenCore, NotEnoughItems, EnderStorage, ChickenChunks, Translocator
 * Author: chicken_bones
 * Licence: You are welcome to include any of my mods in modpacks as long as you provide credit. My name and a link to this page is fine.
 * Source URL: http://www.minecraftforum.net/topic/909223-
@@ -28,6 +28,11 @@ A: Yes, as long as you give proper credit (Linking back to this thread, etc.), a
 * Author: Benimatic
 * Licence: NO PERMISSION
 * Source URL: http://www.minecraftforum.net/topic/561673-
+
+## MystCraft
+* Author: XCompWiz
+* Licence: actual NO PERMISSION (Pending)
+* Source URL: Permission Request http://binarymage.com/forum/viewtopic.php?f=23&t=1300
 
 ## Natura, TConstruct
 * Author: mDiyo
