@@ -31,10 +31,10 @@ The permissions, licences, author and links are here:
 * RopePlus-1.6.2.zip 
 * ZansMinimap <http://www.minecraftforum.net/topic/1116564->
 * appeng-rv12-b-mc162.zip <http://ae-mod.info/Downloads/>
+* ironchest-universal-1.6.2-5.3.20.519.zip <http://www.minecraftforum.net/topic/981855->
 
 ### incomplete included mods
 * forestry-A-2.2.9.10.jar <http://ferestry.sengir.net/wiki.new/doku.php?id=main:downloads>
-* ironchest-universal-1.6.2-5.3.20.519.zip <http://www.minecraftforum.net/topic/981855->
 
 ### mods to be included (some aren't released yet)
 * ComputerCraft <http://www.computercraft.info/download/>
