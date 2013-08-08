@@ -95,6 +95,11 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 * Licence: Gave me permission via PM and here is the screenshot:
 * Source URL: <https://raw.github.com/BakermanLP/MinecraftLetsPlay/master/permissions/dynamiclights.png>
 
+## Ropes+
+* Author: AtomicStryker
+* Licence: Gave me permission via PM and here is the screenshot:
+* Source URL: <https://raw.github.com/BakermanLP/MinecraftLetsPlay/master/permissions/ropes-plus.png>
+
 ## Railcraft
 * Author: CovertJaguar
 * Licence: Gave me permission via Forums Thread:
