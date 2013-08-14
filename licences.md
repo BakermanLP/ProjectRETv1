@@ -57,9 +57,9 @@ This means you are freely able to edit and/or use parts/all of the source code, 
 * Source URL: http://www.minecraftforum.net/topic/1301217-
 
 ## Extra Cells
-* Author:
+* Author: Leonelf
 * Licence: Pending, asked via PM in minecraftforum
-* Source: 
+* Source: http://www.minecraftforum.net/topic/1801643-
 
 ## ExtraUtilities
 * Author: RWTema
