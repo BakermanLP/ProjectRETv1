@@ -193,7 +193,7 @@ If all those steps are followed you have my permission to include it in your mod
 * Licence: NO PERMISSION
 * Source URL: http://www.minecraftforum.net/topic/561673-
 
-## GregtechMod
+## VoxelMap
 * Author: MamiyaOtaru
 * Licence: Gave me permission via PM and here is the screenshot:
 * Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/voxelmap.png>
