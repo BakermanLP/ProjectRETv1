@@ -64,8 +64,8 @@ This means you are freely able to edit and/or use parts/all of the source code, 
 
 ## Extra Cells
 * Author: Leonelf
-* Licence: Pending, asked via PM in minecraftforum
-* Source: http://www.minecraftforum.net/topic/1801643-
+* Licence: Gave me permission via PM and here is the screenshot:
+* Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/extracells.png>
 
 ## ExtraUtilities
 * Author: RWTema
