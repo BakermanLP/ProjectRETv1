@@ -14,6 +14,12 @@ The user of Minecraft Forge is allowed to redistribute Minecraft Forge in partia
 All I really ask is that you make sure that you tell people that my mod is included. Something like "Applied Energistics by AlgorithmX2" with a link to this wiki would work nicely.
 * Source URL: http://ae-mod.info/Frequently-Asked-Questions/
 
+## Applied Energistics Peripherals
+* Author: Pharabus
+* Licence: Gave me permission via forums reply and here is the screenshot:
+* Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/AppliedEnergisticsPeripheral.png>
+<http://www.computercraft.info/forums2/index.php?/topic/12663-applied-energistics-peripheral/page__view__findpost__p__130534>
+
 ## Biomes O Plenty
 * Authors: TDWP_FTW, ted80, Amnet and Adubbz
 * Licence: 
