@@ -7,6 +7,9 @@ More videos are here (german language):
 The permissions, licences, author and links are here:
 <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/licences.md>
 
+The used version numbers are here:
+<https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/versions.md>
+
 ## ModListe
 ### jarmods
 * minecraftforge-universal <http://files.minecraftforge.net/>
@@ -72,4 +75,5 @@ The permissions, licences, author and links are here:
 * PluginsforForestry <http://denoflionsx.info/>
 * StevesCarts2 <http://www.minecraftforum.net/topic/680276->
 * Thaumcraft <http://www.minecraftforum.net/topic/1585216->
+* Ars Magica2 <http://www.minecraftforum.net/topic/1825663-ars-magica-2-ideas/>
 
