@@ -7,11 +7,13 @@
 block {
     I:Aggregator=1500
     I:Barricade=1501
-    I:"Birch Barricade"=1502
+    I:"Birch Barricade"=1566
+    I:"Casting Channel"=1567
     I:"Clear Glass"=1503
     I:"Clear Stained Glass"=1504
     I:"Clear Stained Glass Pane"=1505
     I:"Congealed Slime"=1506
+    I:"Crafting Slab"=1568
     I:"Crafting Station"=1507
     I:"Drying Rack"=1508
     I:"Essence Extractor"=1509
@@ -23,6 +25,7 @@ block {
     I:"Light Crystal"=1515
     I:"Liquid Blue Slime"=1516
     I:"Liquid Cow"=1517
+    I:"Meat Block"=1569
     I:"Metal Storage"=1518
     I:"Molten Aluminum"=1519
     I:"Molten Aluminum Brass"=1520
@@ -71,6 +74,8 @@ block {
     I:"Stone Torch"=1563
     I:"Tool Forge"=1564
     I:"Wood Tool Station"=1565
+    I:"Wool Slab 1"=1570
+    I:"Wool Slab 2"=1571
 }
 
 
@@ -124,6 +129,16 @@ equipables {
 
 general {
     I:"Sea level"=64
+}
+
+
+####################
+# looks
+####################
+
+looks {
+    # 0 = disabled, 1 = enabled, 2 = enabled + ignore stained glass meta
+    B:"Connected Textures Enabled"=true
 }
 
 
@@ -278,7 +293,7 @@ worldgen {
     I:"Iron Surface Rarity"=400
     I:"Nether Ores Density"=8
     I:"Silver Bush Density"=1
-    I:"Slime Island Rarity"=450
+    I:"Slime Island Rarity"=1000
     I:"Tin Bush Density"=2
     I:"Tin Bush Max Y"=40
     I:"Tin Bush Min Y"=0
@@ -299,7 +314,7 @@ worldgen {
     B:"Generate Aluminum"=true
     B:"Generate Aluminum Bushes"=true
     B:"Generate Cobalt and Ardite"=true
-    B:"Generate Copper"=true
+    B:"Generate Copper"=false
     B:"Generate Copper Bushes"=true
     B:"Generate Essence Bushes"=true
     B:"Generate Gold Bushes"=true
@@ -309,7 +324,7 @@ worldgen {
     B:"Generate Surface Gold"=true
     B:"Generate Surface Iron"=true
     B:"Generate Surface Tin"=true
-    B:"Generate Tin"=true
+    B:"Generate Tin"=false
     B:"Generate Tin Bushes"=true
 }
 
