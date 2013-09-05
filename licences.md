@@ -75,7 +75,7 @@ The main restriction is that sources must be accessible. If you are only redistr
 * Source URL: http://www.minecraftforum.net/topic/1686840-
 
 ## EnderIO
-* Author: bluedart
+* Author: Crazy Pants
 * License: Please dont redistribute the binaries without asking first or I will be all sad. Same for mod packs. (Permission asked via PM)
 * Source URL: http://www.minecraftforum.net/topic/1937619-
 
