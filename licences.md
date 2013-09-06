@@ -210,7 +210,9 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 
 ## Project Red
 * Authors: Mr_TJP
-* License: I have absolutely no problem with you guys using it in Mod Packs.  If you wish to include it, PM me and let me know.  This is not for permission, I just want to know as an FYI how many mod packs its in.  Texture pack makers, go crazy, but its very hard to understand the texture stitching.
+* Old License: I have absolutely no problem with you guys using it in Mod Packs.  If you wish to include it, PM me and let me know.  This is not for permission, I just want to know as an FYI how many mod packs its in.  Texture pack makers, go crazy, but its very hard to understand the texture stitching.
+* New License: As it states in the RPSL, you CANNOT under any circumstances include ProjectRed in a mod pack without direct permission from a developer.  Dont ask unless your mod pack is well established.
+* PERMISSION NO (asked via PM)
 * Source URL: http://www.minecraftforum.net/topic/1885652-
 
 ## Railcraft
