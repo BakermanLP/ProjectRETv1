@@ -25,6 +25,11 @@ All I really ask is that you make sure that you tell people that my mod is inclu
 * License: This mod is open source and free for anyone to redistribute and modify. 
 * Source URL:  http://www.minecraftforum.net/topic/1694276-
 
+## Bibliocraft
+* Author: Nuchaz
+* Licence: As long as you provide proper credit to me for my work(s) and have a link back to www.bibliocraftmod.com,  you can use my mod(s) in your mod pack
+* Source URL: http://www.bibliocraftmod.com/?page_id=57#modpacks
+
 ## binnie-mod ExtraBees ExtraTrees
 * Authors: Binnie
 * License: If you have permission to use forestry in your mod pack, in accordance with the terms and conditions provided at the bottom of the forestry forum thread then you have permission to also include Extra Bees/Trees, as long as you link back here

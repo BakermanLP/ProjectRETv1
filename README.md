@@ -18,6 +18,7 @@ The used version numbers are here:
 * AEPeripheral <http://www.computercraft.info/forums2/index.php?/topic/12663-applied-energistics-peripheral/>
 * Applied Energistics <http://ae-mod.info>
 * Barrels <http://www.minecraftforum.net/topic/1694276->
+* Bibliocraft <http://www.minecraftforum.net/topic/1694276->
 * binnie-mod ExtraBees ExtraTrees <http://extratrees.accudio.com/>
 * Biomes-O-Plenty <http://www.minecraftforum.net/topic/1495041->
 * Buildcraft <http://www.mod-buildcraft.com/>
