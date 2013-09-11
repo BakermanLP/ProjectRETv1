@@ -238,6 +238,11 @@ https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/ra
 * License: Gave me permission via PM and here is the screenshot:
 * Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/ropes-plus.png>
 
+## Soulshards
+* Author: ShadwDrgn
+* License: ForgeIRC Soul Shards, and Recipe Remover are protected under the Creative Commons Attribution-NoDerivs 3.0 Unported (CC BY-ND 3.0) License 
+* Source URL: http://www.minecraftforum.net/topic/1475847-
+
 ## Twilight Forest
 * Author: Benimatic
 * License: NO PERMISSION

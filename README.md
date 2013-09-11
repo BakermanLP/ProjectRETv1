@@ -64,6 +64,7 @@ The used version numbers are here:
 * Railcraft <http://www.railcraft.info/releases>
 * RedstoneinMotion <http://forums.technicpack.net/threads/1-5-x-1-6-x-redstone-in-motion-redpower-frames-2-0-0-0-august-30.47048/>
 * RopePlus <http://www.minecraftforum.net/topic/461879->
+* Soulshards <http://www.minecraftforum.net/topic/1475847->
 * TConstruct <http://www.minecraftforum.net/topic/1659892->
 * Translocator <http://www.minecraftforum.net/topic/909223->
 * twilightforest <http://www.minecraftforum.net/topic/561673->
