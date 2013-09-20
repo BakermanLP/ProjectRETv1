@@ -1,116 +1,41 @@
 <ConfigSection>
-        <Substitute name='coalSubstitute' block='stone'>
+    <ConfigSection>
+        <Substitute name='StandardOreSubstitute' block='stone'>
+            <Description>
+                Replace vanilla-generated ore clusters with stone.
+            </Description>
+            <Comment>
+                The global option deferredPopulationRange must be large enough to catch all ore clusters
+            </Comment>
             <Replaces block='oreCoal'/>
-        </Substitute>
-        <Substitute name='ironSubstitute' block='stone'>
             <Replaces block='oreIron'/>
-        </Substitute>
-        <Substitute name='goldSubstitute' block='stone'>
-            <Description>
-                Replace vanilla-generated ore clusters with stone.
-            </Description>
-            <Comment>
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
-            </Comment>
             <Replaces block='oreGold'/>
-        </Substitute>
-        <Substitute name='redstoneSubstitute' block='stone'>
-            <Description>
-                Replace vanilla-generated ore clusters with stone.
-            </Description>
-            <Comment>
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
-            </Comment>
             <Replaces block='oreRedstone'/>
-        </Substitute>
-        <Substitute name='diamondSubstitute' block='stone'>
-            <Description>
-                Replace vanilla-generated ore clusters with stone.
-            </Description>
-            <Comment>
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
-            </Comment>
             <Replaces block='oreDiamond'/>
-        </Substitute>
-        <Substitute name='lapisSubstitute' block='stone'>
-            <Description>
-                Replace vanilla-generated ore clusters with stone.
-            </Description>
-            <Comment>
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
-            </Comment>
             <Replaces block='oreLapis'/>
-        </Substitute>
-        <Substitute name='emeraldSubstitute' block='stone'>
-            <Description>
-                Replace vanilla-generated ore clusters with stone.
-            </Description>
-            <Comment>
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
-            </Comment>
             <Replaces block='oreEmerald'/>
         </Substitute>
-        <Substitute name='copperIC2Substitute' block='stone'>
+        <Substitute name='IC2Substitute' block='stone'>
             <Description>
                 Replace IC2-generated ore clusters with stone.
             </Description>
             <Comment>
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+                The global option deferredPopulationRange must be large enough to catch all ore clusters
             </Comment>
             <Replaces block='blockOreCopper'/>
-        </Substitute>
-        <Substitute name='TinIC2Substitute' block='stone'>
-            <Description>
-                Replace IC2-generated ore clusters with stone.
-            </Description>
-            <Comment>
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
-            </Comment>
             <Replaces block='blockOreTin'/>
-        </Substitute>
-        <Substitute name='uranIC2Substitute' block='stone'>
-            <Description>
-                Replace IC2-generated ore clusters with stone.
-            </Description>
-            <Comment>
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
-            </Comment>
             <Replaces block='blockOreUran'/>
-        </Substitute>
-        <Substitute name='leadIC2Substitute' block='stone'>
-            <Description>
-                Replace IC2-generated ore clusters with stone.
-            </Description>
-            <Comment>
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
-            </Comment>
             <Replaces block='blockOreLead'/>
         </Substitute>
-        <Substitute name='apatite0ForestrySubstitute' block='stone'>
+        <Substitute name='ForestrySubstitute' block='stone'>
             <Description>
                 Replace Forestry-generated ore clusters with stone.
             </Description>
             <Comment>
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+                The global option deferredPopulationRange must be large enough to catch all ore clusters
             </Comment>
             <Replaces block='apatite:0'/>
-        </Substitute>
-        <Substitute name='apatite1ForestrySubstitute' block='stone'>
-            <Description>
-                Replace Forestry-generated ore clusters with stone.
-            </Description>
-            <Comment>
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
-            </Comment>
             <Replaces block='apatite:1'/>
-        </Substitute>
-        <Substitute name='apatite2ForestrySubstitute' block='stone'>
-            <Description>
-                Replace Forestry-generated ore clusters with stone.
-            </Description>
-            <Comment>
-                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
-            </Comment>
             <Replaces block='apatite:2'/>
         </Substitute>
     	<Substitute name='certusQuartzSubstitute' block='stone'>
@@ -122,6 +47,7 @@
         <Substitute name='TConstructAluminumSubstitute' block='stone'>
             <Replaces block='1548:5'/>
         </Substitute>
+    </ConfigSection>
 
     <ConfigSection>
         <Veins name='TConstructAluminumVeins' block='1548:5' branchType='Bezier'>
@@ -171,24 +97,74 @@
         </Veins>
         </Cloud>
 
-    <!-- Coal distribution -->
-        <Veins name='CoalVeins' block='oreCoal' inherits='PresetLayeredVeins'>
-            <Description>
-                Coal spawns just near the surface, and up into hills and mountains.  The veins are
-                long and thick, but sparsely filled with ore and often broken up by caves or depressions
-                in the terrain.
-            </Description>
-            <DrawWireframe>:=drawWireframes</DrawWireframe>
-            <WireframeColor>0x60101010</WireframeColor>
-            <Setting name='MotherlodeFrequency' avg=':= 15 * _default_'/>
-            <Setting name='MotherlodeSize' avg=':= _default_' range=':=  _default_'/>
-            <Setting name='MotherlodeHeight' avg=':= 60/64 * dimension.groundLevel'/>
-            <Setting name='BranchHeightLimit' avg='10'/>
-            <Setting name='OreDensity' avg=':= 2 * _default_' range=':= _default_'/>
-            <Replaces block='stone'/>
-            <Replaces block='dirt' weight='0.5'/>
-            <Replaces block='gravel' weight='0.5'/>
-        </Veins>
+<Veins name='CoalVeins' block='oreCoal' inherits='PresetLayeredVeins'>
+    <Description>
+      Coal
+        - Hauptvorkommen 40 - 72
+        - keine Hauptvorkommen
+        - Erzadern 16 - 96
+        - nur eine Erzader
+        - Erzadern starten im Bereich der Hauptvorkommen
+    </Description>
+    <DrawWireframe>:=drawWireframes</DrawWireframe>
+    <WireframeColor>0x60101010</WireframeColor>
+
+    <Setting name='MotherlodeFrequency' avg=':= 16 * 0.025 * oreFreq'/>
+    <Setting name='MotherlodeSize' avg=':= 0' range=':= 0'/>
+    <Setting name='MotherlodeHeight' avg=':= 56/64 * dimension.groundLevel' range=':= 16/64 * dimension.groundLevel' type='normal'/>
+
+    <Setting name='BranchFrequency' avg='1' range='0'/> 
+    <Setting name='BranchInclination' avg='0' range='0'/> 
+    <Setting name='BranchLength' avg='64' range='32'/> 
+    <Setting name='BranchHeightLimit' avg=':= 16/64 * dimension.groundLevel' range=':= 8/64 * dimension.groundLevel'/> 
+
+    <Setting name='SegmentForkFrequency' avg='0'/>  
+    <Setting name='SegmentLength' avg='16' range='8'/> 
+    <Setting name='SegmentAngle' avg='0.40' range='0.40'/> 
+    <Setting name='SegmentRadius' avg=':= 1 * oreSize' range=':= 0.4 * oreSize'/>
+
+    <Setting name='OreDensity' avg='1' range='0'/> 
+    <Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
+
+    <Replaces block='stone'/>
+    <Replaces block='projectred.exploration.stone:0' weight='0.8'/><Comment>Project Red: Marble</Comment>
+    <Replaces block='projectred.exploration.stone:3' weight='0.8'/><Comment>Project Red: Basalt</Comment>
+    <Replaces block='dirt' weight='0.5'/>
+    <Replaces block='gravel' weight='0.5'/>
+  </Veins>
+
+  <Veins name='RedstoneVeins' block='73' inherits='PresetVerticalVeins'>
+    <Description>
+      Redstone
+        - senkrechte Erzadern
+        - starten zwischen 24 - 40
+    </Description>
+    <DrawWireframe>:=drawWireframes</DrawWireframe>
+    <WireframeColor>0x40FF0000</WireframeColor>
+
+    <Setting name='MotherlodeFrequency' avg=':= 16 * 0.025 * oreFreq'/>
+    <Setting name='MotherlodeSize' avg=':= 0' range=':= 0'/>
+    <Setting name='MotherlodeHeight' avg=':= 32/64 * dimension.groundLevel' range=':= 8/64 * dimension.groundLevel' type='normal'/>
+
+    <Setting name='BranchFrequency' avg='1' range='0'/> 
+    <Setting name='BranchInclination' avg='-1.31' range='0.22'/> 
+    <Setting name='BranchLength' avg=':= 32/64 * dimension.groundLevel' range=':= 8/64 * dimension.groundLevel'/> 
+    <Setting name='BranchHeightLimit' avg=':= 40/64 * dimension.groundLevel' range=':= 0'/> 
+
+    <Setting name='SegmentForkFrequency' avg='0.1'/>  
+    <Setting name='SegmentLength' avg='16' range='8'/> 
+    <Setting name='SegmentAngle' avg='0' range='0.3'/> 
+    <Setting name='SegmentRadius' avg=':= 0.5 * oreSize' range=':= 0.1 * oreSize'/>
+
+    <Setting name='OreDensity' avg='1' range='0'/> 
+    <Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
+
+    <Replaces block='stone'/>
+    <Replaces block='projectred.exploration.stone:0' weight='0.8'/><Comment>Project Red: Marble</Comment>
+    <Replaces block='projectred.exploration.stone:3' weight='0.8'/><Comment>Project Red: Basalt</Comment>
+    <Replaces block='dirt' weight='0.5'/>
+    <Replaces block='gravel' weight='0.5'/>
+  </Veins>
         <Veins name='IronVeins' block='oreIron' inherits='PresetLayeredVeins'>
             <Description>
                 Iron spawns in the height 30-50 range.  The veins are average in length and size.
@@ -316,20 +292,6 @@
             <Replaces block='dirt' weight='0.5'/>
             <Replaces block='gravel' weight='0.5'/>
         </Veins>
-        <Veins name='RedstoneVeins' block='73' inherits='PresetVerticalVeins'>
-            <Description>
-                Gold spawns in the height 10-30 range.  The veins are shorter than average,
-                and much rarer overall.  Gold is not easy to find.
-            </Description>
-            <DrawWireframe>:=drawWireframes</DrawWireframe>
-            <WireframeColor>0x40FF0000</WireframeColor>
-            <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
-            <Setting name='MotherlodeHeight' avg=':= 20/64 * dimension.groundLevel' range='16'/>
-            <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
-            <Replaces block='stone'/>
-            <Replaces block='dirt' weight='0.5'/>
-            <Replaces block='gravel' weight='0.5'/>
-        </Veins>
         <Veins name='EmeraldVeins' block='oreEmerald' inherits='PresetLayeredVeins' seed='0xF186'>
             <Description>
                 Gold spawns in the height 10-30 range.  The veins are shorter than average,
@@ -397,5 +359,5 @@
         <Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
     
     </Veins>
-</ConfigSection>
+    </ConfigSection>
 </ConfigSection>

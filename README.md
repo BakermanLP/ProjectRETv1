@@ -52,6 +52,7 @@ The used version numbers are here:
 * mystcraft <http://www.minecraftforum.net/topic/918541->
 * Natura <http://www.minecraftforum.net/topic/1753754->
 * neiaddons <http://www.minecraftforum.net/topic/1803460->
+* NEIPlugins <https://bitbucket.org/mistaqur/nei_plugins/wiki/Home>
 * NotEnoughItems <http://www.minecraftforum.net/topic/909223->
 * obsidiplates <http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/>
 * OpenPeripheral <http://www.openperipheral.info/openperipheral/>
@@ -73,7 +74,6 @@ The used version numbers are here:
 
 ### mods to be included (some aren't released yet)
 * ThermalExpansion <http://thermalexpansion.wikispaces.com/Downloads>
-* NEIPlugins <https://bitbucket.org/mistaqur/nei_plugins/wiki/Home>
 * PluginsforForestry <http://denoflionsx.info/>
 * StevesCarts2 <http://www.minecraftforum.net/topic/680276->
 * Thaumcraft <http://www.minecraftforum.net/topic/1585216->

@@ -183,7 +183,12 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 * License: The mod is licensed under the MMPL-1.0, the source code is available on GitHub. Yes this means you have permission to add it to any public or private mod pack. 
 * Source URL: http://www.minecraftforum.net/topic/1803460-
 
-## ObsisiPlates
+## NEIplugins
+* Author: mistaqur
+* License: You are free to add NEIPlugins to your modpack and redistribute it, as long as the modpack is strictly non-profit and none of the other mods are included against their license.
+* Source URL: https://bitbucket.org/mistaqur/nei_plugins/wiki/Home
+
+## ObsidiPlates
 * Author: Myrathi
 * License: any of the mods listed may be added to non-FTB public or private modpacks, without asking me directly for my permission, so long as they adhere to the Creative Commons BY-NC-ND license (which all of the mods use).
 * Source URL: http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/

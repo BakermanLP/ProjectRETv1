@@ -1,6 +1,26 @@
 # Configuration file
 
 ####################
+# alpha behavior
+####################
+
+"alpha behavior" {
+    B:"Regenerate HP from food"=false
+    B:"Remove hunger"=false
+}
+
+
+####################
+# battlegear
+####################
+
+battlegear {
+    B:"Are Hatches also weapons"=true
+    B:"Can Cleavers have shields"=true
+}
+
+
+####################
 # block
 ####################
 
@@ -61,8 +81,10 @@ block {
     I:"Redstone Machines"=1550
     I:"Seared Slab"=1551
     I:"Seared Table"=1552
+    I:"Slime Channel"=1572
     I:"Slime Grass"=1553
     I:"Slime Grass Leaves"=1554
+    I:"Slime Pad"=1573
     I:"Slime Tall Grass"=1555
     I:"Slime Tree Sapling"=1556
     I:Smeltery=1557
@@ -109,6 +131,18 @@ block {
 
 
 ####################
+# dimblacklist
+####################
+
+dimblacklist {
+    B:GenerateSlimeIslandInDim0Only=false
+    I:SlimeIslandDimBlacklist <
+     >
+    B:slimeIslGenDim0=true
+}
+
+
+####################
 # equipables
 ####################
 
@@ -120,6 +154,15 @@ equipables {
     I:"Heavy Helmet"=15004
     I:"Heavy Pants"=15005
     I:Knapsack=15006
+}
+
+
+####################
+# experimental
+####################
+
+experimental {
+    B:"Items can be thrown into smelteries"=true
 }
 
 
@@ -161,6 +204,7 @@ looks {
     I:Buckets=15008
     I:"Essence Crystal"=15009
     I:"Golden Head"=15010
+    I:Jerky=15069
     I:"Jeweled Apple"=15011
     I:Materials=15012
     I:"Metal Pattern"=15013
@@ -252,10 +296,14 @@ tools {
 ####################
 
 "ultra hardcore changes" {
+    # Gives all tier 1 patterns when pattern chest is placed
     B:"Add Patterns to Pattern Chests"=false
     B:"Add World Border"=false
+
+    # Makes recipes for gold apples, carrots, and melon potions more expensive
     B:"Change Crafting Recipes"=false
     B:"Change Ghast drops to Gold Ingots"=false
+    B:"Necrotic modifier only heals on hostile mob kills"=false
     B:"Passive Health Regen"=true
     B:"Players drop heads on death"=false
     I:"World Border Radius"=1000
@@ -280,7 +328,11 @@ worldgen {
     I:"Copper Bush Max Y"=60
     I:"Copper Bush Min Y"=20
     I:"Copper Bush Rarity"=3
+
+    # Rarity: 1/num to generate in chunk
     I:"Copper Surface Rarity"=100
+
+    # Density: Chances per chunk
     I:"Copper Underground Density"=2
     I:"Copper Underground Max Y"=60
     I:"Copper Underground Min Y"=20

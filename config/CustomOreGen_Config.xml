@@ -336,25 +336,6 @@
         
     </ConfigSection>
     
-    <!--****************************   Standard Ores   *************************************
-    *   Import the standard ores module, containing options, presets, and distributions
-    *   for coal, iron, gold, redstone, diamond, lapis lazuli, and emeralds.
-    *************************************************************************************-->
-    <!-- <OptionalImport file='CustomOreGen Standard Modules/MinecraftOres.xml'/> -->
-    
-    <!--*******************************   Mod Ores   ***************************************
-    *   Import modules for supported mods if they are present.
-    *************************************************************************************-->
-    <!--
-         
-         <OptionalImport file='CustomOreGen Standard Modules/IndustrialCraft2.xml'/>
-    <OptionalImport file='CustomOreGen Standard Modules/Forestry.xml'/>
-    <OptionalImport file='CustomOreGen Standard Modules/Redpower2.xml'/>
--->
-    <!--************************   User-added Distributions   ******************************
-    *   If you add your own distributions, you can put them here.
-    *   You can also put them in a seperate file in the "CustomOreGen Extra Modules" folder.
-    *************************************************************************************-->
     <OptionalImport file='CustomOreGen Extra Modules/*.xml'/>
     
     <!--*************************   Testing & Debugging   **********************************
