@@ -153,6 +153,11 @@ You may contact me (aka Alblaka), head of the IC² Dev Team, to negotiate condit
 Modpackers: yes, I allow both this and compact solars into modpacks, and being open source I really can't stop you. But I would appreciate a courtesy ping saying that you're including me somewhere. Thanks!
 * Source URL: http://www.minecraftforum.net/topic/981855-
 
+## Jammy Furniture Mod
+* Author: Jammy780
+* License: Gave me permission via PM and here is the screenshot:
+* Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/furniture.png>
+
 ## MFFS
 * Author: Calclavia
 * License: NO PERMISSION
@@ -193,10 +198,15 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 * License: any of the mods listed may be added to non-FTB public or private modpacks, without asking me directly for my permission, so long as they adhere to the Creative Commons BY-NC-ND license (which all of the mods use).
 * Source URL: http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/
 
-## OpenPeripheral, OpenCCSensors
+## OpenPeripheral, OpenCCSensors, OpenBlocks
 * Author: Mikeemoo
 * License: Yes, you can use these in your mod pack ;-)
 * Source URL: http://www.openperipheral.info/
+
+## Optifine
+* Author: sp614x
+* License: NO PERMISSION
+* Source URL: http://www.minecraftforum.net/topic/249637-
 
 ## PaintingSelectionGui
 * Author: Davidee

@@ -46,6 +46,7 @@ The used version numbers are here:
 * industrialcraft <http://www.industrial-craft.net>
 * InventoryTweaks <http://www.minecraftforum.net/topic/1720872->
 * ironchest <http://www.minecraftforum.net/topic/981855->
+* Jammy Furniture Mod <http://www.minecraftforum.net/topic/1098808->
 * MFFS <http://universalelectricity.com/mffs>
 * miscperipherals <http://www.computercraft.info/forums2/index.php?/topic/4587->
 * ModularPowersuits <http://machinemuse.net/download.php>
@@ -55,6 +56,7 @@ The used version numbers are here:
 * NEIPlugins <https://bitbucket.org/mistaqur/nei_plugins/wiki/Home>
 * NotEnoughItems <http://www.minecraftforum.net/topic/909223->
 * obsidiplates <http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/>
+* OpenBlocks <http://www.openperipheral.info/openblocks/>
 * OpenPeripheral <http://www.openperipheral.info/openperipheral/>
 * Paintings++ <http://www.minecraftforum.net/topic/1617109->
 * Pam's HarvestCraft <http://www.minecraftforum.net/topic/402069->

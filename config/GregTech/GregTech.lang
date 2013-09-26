@@ -74,6 +74,8 @@ languagefile {
     S:"Book.Geology Vol. 1.Page17"=Cassiterite Ore: Found above Y-Level 32 in Mountainous Biomes, Icy Biomes and Mushroom Biomes. I would go for the surface Layers, as there is even more Ore above Y-Level 70, so Mountainous areas are perfect.
     S:"Book.Geology Vol. 1.Page18"=Nickel Ore: Between Y-Level 10 and 32 and can only be found in Mountainous Areas.
     S:"Book.Geology Vol. 1.Page19"=Sphaletire Ore: This can only be found under the Lava Lakes at Bedrock Level, and then there is only a small chance that you actually find it there. I heard that you can find tons of it in the Nether.
+    S:"Book.Geology Vol. 1.Page20"=Black Granite: Very hard Rock, but also very valuable, as it contains few amounts of additional Iridium, Cooperite and Tungstate. Not to mention its Blast Resistance and cool Black look.
+    S:"Book.Geology Vol. 1.Page21"=Red Granite: Very hard Rock, and kind of valuable, as it contains traces of Sphalerite, Cinnabar and Tetrahedrite. Not to mention, that this is Granite as well.
     S:"Book.Greg-OS Manual I.Name"=Greg-OS Manual I
     S:"Book.Greg-OS Manual I.Page00"=Redstone Circuits are the main Component of a well running Base. The GregTech Redstone Circuit Block is ideal for processing Logic. It can compute everything! From a simple and consistent Timer to the Combo Lock on your Door!
     S:"Book.Greg-OS Manual I.Page01"=It has a very simple interface. You just need to push as few Buttons, and you are good to go. Just don't forget to push the Start-Button right under the Energy Flow Button, after you adjusted your Configuration.
@@ -1260,6 +1262,22 @@ languagefile {
     S:tile.BlockMetaID_Ore.Sphalerite_Ore.name=Sphalerite Ore
     S:tile.BlockMetaID_Ore.Tetrahedrite_Ore.name=Tetrahedrite Ore
     S:tile.BlockMetaID_Ore.Tungstate_Ore.name=Tungstate Ore
+    S:tile.BlockMetaID_Stone1.GT_Black_Granite.name=Black Granite
+    S:tile.BlockMetaID_Stone1.GT_Black_Granite_Bricks.name=Black Granite Bricks
+    S:tile.BlockMetaID_Stone1.GT_Black_Granite_Bricks_Chiseled.name=Chiseled Black Granite
+    S:tile.BlockMetaID_Stone1.GT_Black_Granite_Bricks_Cracked.name=Cracked Black Granite Bricks
+    S:tile.BlockMetaID_Stone1.GT_Black_Granite_Bricks_Mossy.name=Mossy Black Granite Bricks
+    S:tile.BlockMetaID_Stone1.GT_Black_Granite_Cobble.name=Black Granite Cobblestone
+    S:tile.BlockMetaID_Stone1.GT_Black_Granite_Cobble_Mossy.name=Mossy Black Granite Cobblestone
+    S:tile.BlockMetaID_Stone1.GT_Black_Granite_Smooth.name=Smooth Black Granite
+    S:tile.BlockMetaID_Stone1.GT_Red_Granite.name=Red Granite
+    S:tile.BlockMetaID_Stone1.GT_Red_Granite_Bricks.name=Red Granite Bricks
+    S:tile.BlockMetaID_Stone1.GT_Red_Granite_Bricks_Chiseled.name=Chiseled Red Granite
+    S:tile.BlockMetaID_Stone1.GT_Red_Granite_Bricks_Cracked.name=Cracked Red Granite Bricks
+    S:tile.BlockMetaID_Stone1.GT_Red_Granite_Bricks_Mossy.name=Mossy Red Granite Bricks
+    S:tile.BlockMetaID_Stone1.GT_Red_Granite_Cobble.name=Red Granite Cobblestone
+    S:tile.BlockMetaID_Stone1.GT_Red_Granite_Cobble_Mossy.name=Mossy Red Granite Cobblestone
+    S:tile.BlockMetaID_Stone1.GT_Red_Granite_Smooth.name=Smooth Red Granite
     S:tritium=Tritium
     S:wolframium=Wolframium
 }
