@@ -6,7 +6,7 @@ minecraftforge-universal-1.6.2-9.10.1.871.jar
 1.6.2_Jammy_Furniture_Mod_V4.5.zip
 aeperipheral-universal-1.6.2-1.0.1.1_patched.zip
 appeng-rv13-c-mc162.jar
-Barrels 3.1-1.6.2.jar
+Barrels 3.3-1.6.4.jar
 BiblioCraft[v1.4.1].zip
 binnie-mods-1.8-dev2.jar
 BiomesOPlenty-universal-1.6.4-1.1.2.51.jar
@@ -14,7 +14,7 @@ buildcraft-A-4.0.2.jar
 ChickenChunks 1.3.3.2.jar
 CodeChickenCore 0.9.0.5.jar
 compactsolars-universal-1.6.2-4.4.13.133.zip
-CompactWindmills+MC.1.6.4+v.1.0.2.2.jar
+CompactWindmills+MC.1.6.2+v.1.0.2.1.jar
 ComputerCraft1.56.zip
 CustomOreGenRevived-1.6.2-1.0.5.jar
 DartCraft Beta 0.2.06.jar
@@ -24,14 +24,14 @@ EnhancedCore_1.1.3.jar
 EnhancedPortals-2_1.0.8.jar
 ExtraCells-universal-1.3.9 (1.6.2).jar
 extrautils - 0.3 Prerelease 3a.zip
-forestry-A-2.3.0.1_ic2_patched.jar
+forestry-A-2.3.0.2_ic2.ex.jar
 Forge_GuiLibv1.0.6.zip
 Forge_PaintingSelectionGuiv1.6.2.3.zip
 GravityGun2.0.0.zip
-gregtechmod-4.04e.zip
+gregtechmod-4.04l.zip
 hunger-overhaul-1.6.2-2e.zip
 iChunUtil2.2.0.zip
-industrialcraft-2_2.0.227-experimental.jar
+industrialcraft-2_2.0.253-experimental.jar
 InventoryTweaks-MC1.6.2-1.56-b77.jar
 ironchest-universal-1.6.2-5.3.20.549.zip
 MFFS_v3.3.1.224.jar
@@ -48,10 +48,9 @@ OpenBlocks-1.1.0-forge9.10.1.871-snapshot-0.jar
 OpenPeripheral-0.2.1-preview8.jar
 OptiFine_1.6.2_HD_U_C4.jar
 Paintings++ 1.6.2 v4_small_test.zip
-Pam's HarvestCraft 1.6.2 v1.1.3.zip
+Pams HarvestCraft 1.6.2 v1.1.3.zip
 Pams Simple Recipes 1.6.2.zip
 PortalGun2.0.1.zip
-PortalGunSounds.pak
 ProjectBench-1.6.2-v1.8.0.jar
 ProjectRedBase-1.6.2-4.0.1.4.jar
 ProjectRedCompat-1.6.2-4.0.1.4.jar
@@ -61,9 +60,9 @@ Railcraft_1.6.2-8.0.2.0_patched.jar
 RedstoneInMotion_2.2.0.0_mc1.6.zip
 RopePlus_1.6.2.zip
 scala-library.jar
-slick-util.jar
 SoulShards-1.0.39-universal-srg.jar
 TConstruct_1.6.2_1.4.5.1.jar
+Thaumcraft4.0.1a.zip
 Translocator 1.1.0.12.jar
 twilightforest-1.19.3.jar
 WR-CBE 1.4.0.5.jar

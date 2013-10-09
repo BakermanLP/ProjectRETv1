@@ -69,6 +69,7 @@ The used version numbers are here:
 * RopePlus <http://www.minecraftforum.net/topic/461879->
 * Soulshards <http://www.minecraftforum.net/topic/1475847->
 * TConstruct <http://www.minecraftforum.net/topic/1659892->
+* Thaumcraft <http://www.minecraftforum.net/topic/2011841->
 * Translocator <http://www.minecraftforum.net/topic/909223->
 * twilightforest <http://www.minecraftforum.net/topic/561673->
 * WR-CBE <http://www.minecraftforum.net/topic/909223->
@@ -78,6 +79,5 @@ The used version numbers are here:
 * ThermalExpansion <http://thermalexpansion.wikispaces.com/Downloads>
 * PluginsforForestry <http://denoflionsx.info/>
 * StevesCarts2 <http://www.minecraftforum.net/topic/680276->
-* Thaumcraft <http://www.minecraftforum.net/topic/1585216->
 * Ars Magica2 <http://www.minecraftforum.net/topic/1825663-ars-magica-2-ideas/>
 

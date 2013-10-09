@@ -258,6 +258,11 @@ https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/ra
 * License: ForgeIRC Soul Shards, and Recipe Remover are protected under the Creative Commons Attribution-NoDerivs 3.0 Unported (CC BY-ND 3.0) License 
 * Source URL: http://www.minecraftforum.net/topic/1475847-
 
+## Thaumcraft
+* Author: Azanor
+* License: NO PERMISSION
+* Source URL: http://www.minecraftforum.net/topic/2011841-
+
 ## Twilight Forest
 * Author: Benimatic
 * License: NO PERMISSION
