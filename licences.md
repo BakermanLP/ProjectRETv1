@@ -20,6 +20,15 @@ The user of Minecraft Forge is allowed to redistribute Minecraft Forge in partia
 All I really ask is that you make sure that you tell people that my mod is included. Something like "Applied Energistics by AlgorithmX2" with a link to this wiki would work nicely.
 * Source URL: http://ae-mod.info/Frequently-Asked-Questions/
 
+## Ars Magica 2
+* Author: Mithion
+* License: So here is the deal.  You want Ars Magica in your mod pack?  All you need to meet are three simple conditions:
+Your mod pack needs a link back to this forum post
+You cannot make any money off of the mod pack
+You cannot claim that you made any part of the mod, and you must give credit to the author of the mod (Mithion)
+If these three conditions are met, then you have my permission to use it in a mod pack.  Have fun!
+* Source URL: http://www.minecraftforum.net/topic/2028696-ars-magica-2-162164-version-100-updated-oct-12/
+
 ## Barrels
 * Authors: Need4Poop402
 * License: This mod is open source and free for anyone to redistribute and modify. 
@@ -48,6 +57,11 @@ A: Yes, as long as you give proper credit (Linking back to this thread, etc.), a
 
 The main restriction is that sources must be accessible. If you are only redistributing the unmodified binaries, or class files, adding a link to http://www.mod-buildcraft.com is enough – sources can be retrieved from there. Otherwise, make sure that you clearly understand the implications, and asks questions in the forum if needed.
 * Source URL: http://www.mod-buildcraft.com/documentation/faq/#mod_pack
+
+## CCTransport
+* Author: ElvishJerricco
+* License: OpenSource
+* Source URL: http://www.computercraft.info/forums2/index.php?/topic/15384-cctransport-v101-inventory-management-add-on-for-openperipherals/
 
 ## CodeChickenCore, NotEnoughItems, EnderStorage, ChickenChunks, Translocator, WR-CBE, ForgeMultiPart
 * Author: chicken_bones
@@ -101,6 +115,14 @@ This means you are freely able to edit and/or use parts/all of the source code, 
 * Author: RWTema
 * License: You have my permission to use include this mod in any modpack, public or private, provided that credit is given, the source code is not modified and the overall mod pack is distributed free of charge.
 * Source: http://www.minecraftforum.net/topic/1776056-
+
+## Factorization
+* Author: neptunepink
+* License: This mod may be used in modpacks under the following conditions:
+1. There is a post in this thread that the mod is being used in a modpack. If it is a public modpack, then it must include the packs name and the website or URL where the modpack can be found. If it is a private modpack, then mention this in your post. (I would like the post to contain also a description of the modpack and an estimate of the number of users, but this isnt necessary.)
+2. The modpack must include in it a text file, or something similar, listing for each public mod: the name of the mod, the mods author, and the mods website or forum thread.
+* Source URL: http://www.minecraftforum.net/topic/1351802-
+* Request Post: http://www.minecraftforum.net/topic/1351802-162-factorization-0804/page__view__findpost__p__23095627
 
 ## Forestry
 * Author: sengir
@@ -157,6 +179,11 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 * Author: Jammy780
 * License: Gave me permission via PM and here is the screenshot:
 * Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/furniture.png>
+
+## Magic Bees
+* Author: MysteriousAges
+* License: You are permitted to redistribute the original Magic Bees mod from the download links in both Public and Private server packs. My implicit permission is granted for all uses.
+* Source URL: http://www.minecraftforum.net/topic/1627856-
 
 ## MFFS
 * Author: Calclavia
@@ -260,6 +287,11 @@ https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/ra
 
 ## Thaumcraft
 * Author: Azanor
+* License: NO PERMISSION
+* Source URL: http://www.minecraftforum.net/topic/2011841-
+
+## Thaumic Tinkerer
+* Author: Vazkii
 * License: NO PERMISSION
 * Source URL: http://www.minecraftforum.net/topic/2011841-
 
