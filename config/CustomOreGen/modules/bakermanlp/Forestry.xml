@@ -1,0 +1,107 @@
+<!--*************************  CustomOreGen Forestry Ores Module *********************************
+*
+*   This file contains Presets, Options, and Distributions for the 3 Forestry ores:
+*       Copper, Tin, and Apatite.
+*
+***********************************************************************************************-->
+<IfModInstalled name="Forestry">
+    <ConfigSection>
+
+        <OptionDisplayGroup name='groupForestry' displayName='Forestry BKLP' displayState='shown'>
+            <Description>
+                Distribution options for the vanilla Minecraft ores.
+            </Description>
+        </OptionDisplayGroup>
+    </ConfigSection>
+
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= dimension.generator = "RandomLevelSource"'>
+        
+        <Substitute name='ForestryCopperSubstitute' block='stone'>
+            <Description> 
+                Replace Forestry-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='1926:1'/> 
+        </Substitute>
+        <Substitute name='ForestryTinSubstitute' block='stone'>
+            <Description> 
+                Replace Forestry-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='1926:2'/> 
+        </Substitute>
+        <Substitute name='ForestryApatiteSubstitute' block='stone'>
+            <Description> 
+                Replace Forestry-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='1926:0'/>
+        </Substitute>
+        
+        <!--*******************   Copper   *********************-->            
+        <ConfigSection>
+        <Veins name='ForestryCopperVeins' block='1926:1' inherits='PresetLayeredVeins'>
+            <Description>
+                Gold spawns in the height 10-30 range.  The veins are shorter than average,
+                and much rarer overall.  Gold is not easy to find.
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x40FF8000</WireframeColor>
+            <Setting name='MotherlodeFrequency' avg=':= 6 * _default_'/>
+            <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+            <Setting name='MotherlodeHeight' avg=':= 40/64 * dimension.groundLevel'/>
+            <Setting name='BranchHeightLimit' avg='10'/>
+            <Setting name='OreDensity' avg=':= 1.75 * _default_' range=':= _default_'/>
+            <Replaces block='stone'/>
+            <Replaces block='dirt' weight='0.5'/>
+            <Replaces block='gravel' weight='0.5'/>
+        </Veins>
+        <Veins name='ForestryTinVeins' block='1926:2' inherits='PresetLayeredVeins'>
+            <Description>
+                Gold spawns in the height 10-30 range.  The veins are shorter than average,
+                and much rarer overall.  Gold is not easy to find.
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x40E0E0E0</WireframeColor>
+            <Setting name='MotherlodeFrequency' avg=':= 6 * _default_'/>
+            <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+            <Setting name='MotherlodeHeight' avg=':= 30/64 * dimension.groundLevel'/>
+            <Setting name='BranchHeightLimit' avg='10'/>
+            <Setting name='OreDensity' avg=':= 1.75 * _default_' range=':= _default_'/>
+            <Replaces block='stone'/>
+            <Replaces block='dirt' weight='0.5'/>
+            <Replaces block='gravel' weight='0.5'/>
+        </Veins>
+        <Veins name='ForestryApatiteVeins' block='1926:0' inherits='PresetLayeredVeins'>
+            <Description>
+                Gold spawns in the height 10-30 range.  The veins are shorter than average,
+                and much rarer overall.  Gold is not easy to find.
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x40800080</WireframeColor>
+            <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+            <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+            <Setting name='MotherlodeHeight' avg=':= 55/64 * dimension.groundLevel'/>
+            <Setting name='BranchHeightLimit' avg='10'/>
+            <Setting name='BranchLength' avg='32' range='16'/>
+            <Setting name='OreDensity' avg=':= 3 * _default_'/>
+            <Replaces block='stone'/>
+            <Replaces block='dirt' weight='0.5'/>
+            <Replaces block='gravel' weight='0.5'/>
+        </Veins>
+        </ConfigSection>
+        
+    </IfCondition>
+    
+</IfModInstalled>

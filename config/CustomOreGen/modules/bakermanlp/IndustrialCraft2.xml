@@ -1,0 +1,70 @@
+<!--*********************  CustomOreGen IndustrialCraft Ores Module ******************************
+*
+*   This file contains Presets, Options, and Distributions for the 3 IndustrialCraft^2 ores:
+*       Copper, Tin, and Uranium.
+*
+***********************************************************************************************-->
+<IfModInstalled name="IC2">
+    <ConfigSection>
+
+        <OptionDisplayGroup name='groupIC2' displayName='IC2 BKLP' displayState='shown'>
+            <Description>
+                Distribution options for the vanilla Minecraft ores.
+            </Description>
+        </OptionDisplayGroup>
+    </ConfigSection>
+
+    <IfCondition condition=':= dimension.generator = "RandomLevelSource"'>
+        
+        <Substitute name='IC2Substitute' block='stone'>
+            <Description> 
+                Replace IC2-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='blockOreCopper'/> 
+            <Replaces block='blockOreTin'/> 
+            <Replaces block='blockOreUran'/>
+        </Substitute>
+        
+        <!--*******************   Copper   *********************-->            
+        <ConfigSection>
+        <Veins name='IC2LeadVeins' block='blockOreLead' inherits='PresetLayeredVeins'>
+            <Description>
+                Gold spawns in the height 10-30 range.  The veins are shorter than average,
+                and much rarer overall.  Gold is not easy to find.
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x40FF8000</WireframeColor>
+            <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+            <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+            <Setting name='MotherlodeHeight' avg=':= 35/64 * dimension.groundLevel'/>
+            <Setting name='BranchHeightLimit' avg='10'/>
+            <Setting name='BranchLength' avg='64' range='21'/> 
+            <Setting name='OreDensity' avg=':= 1.75 * _default_' range=':= _default_'/>
+            <Replaces block='stone'/>
+            <Replaces block='dirt' weight='0.5'/>
+            <Replaces block='gravel' weight='0.5'/>
+        </Veins>
+        <Veins name='IC2UraniumVeins' block='blockOreUran' inherits='PresetLayeredVeins'>
+            <Description>
+                Gold spawns in the height 10-30 range.  The veins are shorter than average,
+                and much rarer overall.  Gold is not easy to find.
+            </Description>
+            <DrawWireframe>:=drawWireframes</DrawWireframe>
+            <WireframeColor>0x40C0FFC0</WireframeColor>
+            <Setting name='MotherlodeFrequency' avg=':= 1 * _default_'/>
+            <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+            <Setting name='MotherlodeHeight' avg=':= 16/64 * dimension.groundLevel'/>
+            <Setting name='BranchHeightLimit' avg='10'/>
+            <Setting name='OreDensity' avg=':= 1 * _default_' range=':= _default_'/>
+            <Replaces block='stone'/>
+            <Replaces block='dirt' weight='0.5'/>
+            <Replaces block='gravel' weight='0.5'/>
+        </Veins>
+        </ConfigSection>
+        
+    </IfCondition>
+    
+</IfModInstalled>

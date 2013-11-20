@@ -1,0 +1,56 @@
+<!--**************  CustomOreGen Applied Energistics Ores Module ***********************
+* 
+*   This file contains Presets, Options, and Distributions for Applied Energistics ores.
+*
+******************************************************************************--> 
+
+<!-- 
+Ores included in this configuration: 
+
+Quartz
+--> 
+<IfModInstalled name="AppliedEnergistics">
+    <ConfigSection>
+    
+        <OptionDisplayGroup name='groupAppliedEnergistics' displayName='AppliedEnergistics BKLP' displayState='shown'>
+            <Description> 
+                Distribution options for the vanilla Minecraft ores.
+            </Description>
+        </OptionDisplayGroup>
+    </ConfigSection>   
+
+<ConfigSection>
+    <IfCondition condition=':= dimension.generator = "RandomLevelSource"'>
+    
+        <!-- Normal World Deposit Removal -->
+        <Substitute name='appliedEnergisticsOreSubstitute' block='stone'>
+            <Description> 
+                Replace default-generated Applied Energistics ore clusters with stone.
+            </Description>
+            <Comment>
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32)
+            </Comment>
+            <Replaces block='appeng.blockWorld'/>
+        </Substitute>
+
+		<ConfigSection>
+		<Cloud name='aeCertusQuartzCloud' block='1032:0' inherits='PresetStrategicCloud'>
+			<DrawWireframe>:=drawWireframes</DrawWireframe>
+			<WireframeColor>0xFFDDA0DD</WireframeColor>
+			<Setting name='DistributionFrequency' avg=':= 4 * _default_'/>
+			<Setting name='CloudRadius' avg=':= 1.2 * _default_' range=':= 1.2 * _default_'/>
+			<Setting name='CloudThickness' avg=':= 0.5 * _default_' range=':= 0.5 * _default_'/>                
+			<Setting name='OreVolumeNoiseCutoff' avg='0'/>
+			<Setting name='OreDensity' avg=':= 1.1 * _default_'/>
+			<Veins name='aeCertusQuartzVeins' block='1032:0' inherits='PresetHintVeins'>
+				<DrawWireframe>:=drawWireframes</DrawWireframe>
+				<WireframeColor>0xFFDDA0DD</WireframeColor>
+				<Setting name='MotherlodeFrequency' avg=':= _default_' range=':= _default_'/>   
+				<Setting name='MotherlodeRangeLimit' avg=':= 0.5 * _default_' range=':= 0.5 * _default_'/>              
+			</Veins>
+			</Cloud>
+		</ConfigSection>
+	</IfCondition>
+    
+</ConfigSection>
+</IfModInstalled>

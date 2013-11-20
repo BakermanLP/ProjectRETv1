@@ -1,0 +1,62 @@
+<!--************************  CustomOreGen Dartcraft Ores Module *********************************
+*
+*   This file contains Presets, Options, and Distributions for the 1 Dartcraft ore:  Power Ore. 
+*
+***********************************************************************************************-->
+  <ConfigSection>
+    <ConfigSection>
+
+        <OptionDisplayGroup name='groupPamsHarvestcraft' displayName='PamsHarvestcraft BKLP' displayState='shown'>
+            <Description>
+                Distribution options for the vanilla Minecraft ores.
+            </Description>
+        </OptionDisplayGroup>
+    </ConfigSection>
+
+	<IfCondition condition=':= dimension.generator = "RandomLevelSource"'>
+        <ConfigSection>
+        <!--**********   Vanilla Deposit Removal   *************-->
+        <Substitute name='pamsHcSaltSubstitute' block='stone'>
+            <Replaces block='2201:0'/>
+        </Substitute>
+        </ConfigSection>      
+        <!--*****************   Power Ore   *********************-->
+        <ConfigSection>
+		<Veins name='pamsHcSaltVeins' block='2201:0' branchType='Bezier'>
+			<Description>
+				Beschreibung
+			</Description>
+			
+			<DrawWireframe>:=drawWireframes</DrawWireframe>
+			<WireframeColor>0xFFFF00FF</WireframeColor>
+
+			<Replaces block='stone'/>
+			<Replaces block='1007:0'/>
+			<Replaces block='dirt' weight='0.5'/>
+			<Replaces block='gravel' weight='0.5'/>
+			<Biome name='.*'/>
+
+			<Setting name='MotherlodeFrequency' avg=':= 0.025 * 1.05 * oreFreq'/>
+			<Setting name='MotherlodeSize' avg=':= 2.5 * oreSize' range=':= 1 * oreSize'/>
+			<Setting name='MotherlodeHeight' avg=':= 48/64 * dimension.groundLevel' range=':= 8/64 * dimension.groundLevel' type='normal'/>
+			<Setting name='MotherlodeRangeLimit' avg='32' range='32' type='normal'/>
+
+			<Setting name='BranchFrequency' avg='3' range='2'/> 
+			<Setting name='BranchInclination' avg='0' range='0.2'/> 
+			<Setting name='BranchLength' avg='32' range='16'/> 
+			<Setting name='BranchHeightLimit' avg='16'/> 
+
+			<Setting name='SegmentForkFrequency' avg='0.20'/>  
+			<Setting name='SegmentForkLengthMult' avg='0.75' range='0.25' /> 
+			<Setting name='SegmentLength' avg='15' range='6'/> 
+			<Setting name='SegmentAngle' avg='0.40' range='0.40'/> 
+			<Setting name='SegmentRadius' avg=':= 2 * oreSize' range=':= 1 * oreSize'/>
+
+			<Setting name='OreDensity' avg='1' range='0'/> 
+			<Setting name='OreRadiusMult' avg='1.0' range='0.1'/> 
+		
+		</Veins>
+        </ConfigSection>      
+     </IfCondition>
+  </ConfigSection>
+

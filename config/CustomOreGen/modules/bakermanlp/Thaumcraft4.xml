@@ -1,0 +1,142 @@
+<!--************************ BlockCustomOreGen Minecraft Ores Module *********************************
+*
+* This file contains Presets, Options, and Distributions for the 2 Thaumcraft overworld mining ores:
+* Amber and Cinnabar, as well as the 6 Varities of Infused Stone.
+*
+***********************************************************************************************-->
+<IfModInstalled name="Thaumcraft">
+<ConfigSection>
+	<IfCondition condition=':= dimension.generator = "RandomLevelSource"'>
+
+		<!--********** Vanilla Deposit Removal *************-->
+		<Substitute name='ThaumcraftSubstitute' block='stone'>
+			<Description>
+				Replace vanilla-generated ore clusters with stone.
+			</Description>
+			<Comment>
+				The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+			</Comment>
+			<Replaces block='BlockCustomOre'/>
+			<Comment>
+				The above is the block that contains all the ores used in Thamucraft.
+			</Comment>
+		</Substitute>
+
+		<!--******************* Amber ***********************-->
+		<ConfigSection>
+				<Veins name='AmberVeins' block='BlockCustomOre:7' inherits='PresetSmallDeposits'>
+					<Description>
+						Small deposits of amber that spawn in most Biomes.  Appears more commonly in Mountain Biomes.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40FF7E00</WireframeColor>
+					<Setting name='MotherlodeFrequency' avg=':= 0.9 * _default_'/>
+					<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+					<Setting name='MotherlodeHeight' avg=':= 56/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+				</Veins>
+				<Veins name='AmberVeinsForest' inherits='AmberVeins'>
+					<Description> This roughly triples the chance of finding Amber in Mountain biomes. </Description>
+					<Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+					<Setting name='MotherlodeHeight' avg=':= 80/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+					<BiomeType name='Mountain'/>
+				</Veins>
+		</ConfigSection>
+
+		<!--******************* Cinnabar ***********************-->
+		<ConfigSection>
+				<Veins name='CinnabarVeins' block='BlockCustomOre:0' inherits='PresetLayeredVeins'>
+					<Description>
+						Cinnabar in rare veins just under the surface.  It is more common in Mountian Biomes.
+					</Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40E44D2E</WireframeColor>
+					<Setting name='MotherlodeFrequency' avg=':= 0.4 * _default_'/>
+					<Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+					<Setting name='MotherlodeHeight' avg=':= 52/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel' type='normal'/>
+					<Setting name='BranchHeightLimit' avg='10.5'/>
+					<Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
+				</Veins>
+				<Veins name='CinnabarVeinsMountain' inherits='CinnabarVeins'>
+					<Description> This roughly triples the chance of finding Cinnabar in mesa biomes. </Description>
+					<Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/>
+					<Setting name='MotherlodeHeight' avg=':=_default_' range=':= 2 * _default_'/>
+					<Setting name='BranchHeightLimit' avg=':= 2 * _default_'/>
+					<BiomeType name='Mountain'/>
+				</Veins>
+		</ConfigSection>
+
+		<!--******************* Air Infused Stone ***********************-->
+		<ConfigSection>
+				<StandardGen name='AirInfusedStoneStandard' block='BlockCustomOre:1' inherits='PresetStandardGen'>
+					<Description> Equivalent to vanilla minecraft Infused Stone distribution </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40FFCC00</WireframeColor>
+					<Setting name='Size' avg=':= 0.5 * _default_'/>
+					<Setting name='Frequency' avg=':= _default_'/>
+					<Setting name='Height' avg=':= 64/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+		</ConfigSection>
+		
+		<!--******************* Fire Infused Stone ***********************-->
+		<ConfigSection>
+				<StandardGen name='FireInfusedStoneStandard' block='BlockCustomOre:2' inherits='PresetStandardGen'>
+					<Description> Equivalent to vanilla minecraft Fire Infused Stone distribution </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40CC0000</WireframeColor>
+					<Setting name='Size' avg=':= 0.5 * _default_'/>
+					<Setting name='Frequency' avg=':= _default_'/>
+					<Setting name='Height' avg=':= 64/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+		</ConfigSection>
+
+		<!--******************* Water Infused Stone ***********************-->
+		<ConfigSection>
+				<StandardGen name='WaterInfusedStoneStandard' block='BlockCustomOre:3' inherits='PresetStandardGen'>
+					<Description> Equivalent to vanilla minecraft Water Infused Stone distribution </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40129793</WireframeColor>
+					<Setting name='Size' avg=':= 0.5 * _default_'/>
+					<Setting name='Frequency' avg=':= _default_'/>
+					<Setting name='Height' avg=':= 64/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+		</ConfigSection>
+
+		<!--******************* Earth Infused Stone ***********************-->
+		<ConfigSection>
+				<StandardGen name='EarthInfusedStoneStandard' block='BlockCustomOre:4' inherits='PresetStandardGen'>
+					<Description> Equivalent to vanilla minecraft Earth Infused Stone distribution </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x407ABA7A</WireframeColor>
+					<Setting name='Size' avg=':= 0.5 * _default_'/>
+					<Setting name='Frequency' avg=':= _default_'/>
+					<Setting name='Height' avg=':= 64/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+		</ConfigSection>
+
+		<!--******************* Order Infused Stone ***********************-->
+		<ConfigSection>
+				<StandardGen name='OrderInfusedStoneStandard' block='BlockCustomOre:4' inherits='PresetStandardGen'>
+					<Description> Equivalent to vanilla minecraft Order Infused Stone distribution </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40CCCCCC</WireframeColor>
+					<Setting name='Size' avg=':= 0.5 * _default_'/>
+					<Setting name='Frequency' avg=':= _default_'/>
+					<Setting name='Height' avg=':= 64/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+		</ConfigSection>
+		
+		<!--******************* Entropy Infused Stone ***********************-->
+		<ConfigSection>
+				<StandardGen name='EntropyInfusedStoneStandard' block='BlockCustomOre:4' inherits='PresetStandardGen'>
+					<Description> Equivalent to vanilla minecraft Entropy Infused Stone distribution </Description>
+					<DrawWireframe>:=drawWireframes</DrawWireframe>
+					<WireframeColor>0x40666666</WireframeColor>
+					<Setting name='Size' avg=':= 0.5 * _default_'/>
+					<Setting name='Frequency' avg=':= _default_'/>
+					<Setting name='Height' avg=':= 64/64 * dimension.groundLevel' range=':= 20/64 * dimension.groundLevel'/>
+				</StandardGen>
+		</ConfigSection>
+		
+		</IfCondition>
+</ConfigSection>
+</IfModInstalled>

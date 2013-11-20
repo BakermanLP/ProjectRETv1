@@ -180,6 +180,11 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 * License: Gave me permission via PM and here is the screenshot:
 * Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/furniture.png>
 
+## LanteaCraft
+* Author: NeoRavencroft
+* License: Unkonw
+* Source URL: <http://www.minecraftforum.net/topic/2059956->
+
 ## Magic Bees
 * Author: MysteriousAges
 * License: You are permitted to redistribute the original Magic Bees mod from the download links in both Public and Private server packs. My implicit permission is granted for all uses.
@@ -219,6 +224,11 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 * Author: mistaqur
 * License: You are free to add NEIPlugins to your modpack and redistribute it, as long as the modpack is strictly non-profit and none of the other mods are included against their license.
 * Source URL: https://bitbucket.org/mistaqur/nei_plugins/wiki/Home
+
+## Opie + MobiusCore
+* Author: ProfMobius
+* License: unkown
+* Source URL: http://www.minecraftforum.net/topic/2104497-
 
 ## ObsidiPlates
 * Author: Myrathi
@@ -294,6 +304,11 @@ https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/ra
 * Author: Vazkii
 * License: NO PERMISSION
 * Source URL: http://www.minecraftforum.net/topic/2011841-
+
+## Thermalexpansion + CoFHCore
+* Author: King Lemming
+* License: This is the Internet. Even if you dont like us (we still like you, really) for some reason, we cant (and wouldnt) stop you and maintain any semblance of a moral high ground, so have fun. Permission granted. This was made to be played, after all.
+* Source URL: http://www.teamcofh.com/index.php?page=license
 
 ## Twilight Forest
 * Author: Benimatic

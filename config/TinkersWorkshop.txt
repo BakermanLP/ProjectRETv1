@@ -1,6 +1,15 @@
 # Configuration file
 
 ####################
+# achievement properties
+####################
+
+"achievement properties" {
+    B:AchievementsEnabled=true
+}
+
+
+####################
 # alpha behavior
 ####################
 
@@ -26,6 +35,7 @@ battlegear {
 
 block {
     I:Aggregator=1500
+    I:"Air Tank"=1574
     I:Barricade=1501
     I:"Birch Barricade"=1566
     I:"Casting Channel"=1567
@@ -37,6 +47,7 @@ block {
     I:"Crafting Station"=1507
     I:"Drying Rack"=1508
     I:"Essence Extractor"=1509
+    I:"Furnace Slab"=1577
     I:"Glass Pane"=1510
     I:"Held Item Block"=1511
     I:"Jungle Barricade"=1512
@@ -79,8 +90,11 @@ block {
     I:"Ores Slag"=1548
     I:Punji=1549
     I:"Redstone Machines"=1550
+    I:SDX=1578
     I:"Seared Slab"=1551
     I:"Seared Table"=1552
+    I:"Signal Bus"=1579
+    I:"Signal Terminal"=1580
     I:"Slime Channel"=1572
     I:"Slime Grass"=1553
     I:"Slime Grass Leaves"=1554
@@ -93,9 +107,11 @@ block {
     I:"Speed Slab"=1560
     I:"Spruce Barricade"=1561
     I:"Stained Glass"=1562
+    I:"Stone Ladder"=1575
     I:"Stone Torch"=1563
     I:"Tool Forge"=1564
     I:"Wood Tool Station"=1565
+    I:"Wooden Rail"=1576
     I:"Wool Slab 1"=1570
     I:"Wool Slab 2"=1571
 }
@@ -135,9 +151,17 @@ block {
 ####################
 
 dimblacklist {
+    # True: slime islands wont generate in any ages other than overworld(if enabled); False: will generate in all non-blackisted ages
     B:GenerateSlimeIslandInDim0Only=false
+
+    # Add dimension ID's to prevent slime islands from generating in them
     I:SlimeIslandDimBlacklist <
      >
+
+    # Generate slime islands in flat worlds
+    B:genIslandsFlat=false
+
+    # True: slime islands generate in overworld; False they do not generate
     B:slimeIslGenDim0=true
 }
 
@@ -154,6 +178,10 @@ equipables {
     I:"Heavy Helmet"=15004
     I:"Heavy Pants"=15005
     I:Knapsack=15006
+    I:"Wooden Boots"=15070
+    I:"Wooden Chestplate"=15071
+    I:"Wooden Helmet"=15072
+    I:"Wooden Pants"=15073
 }
 
 
@@ -163,6 +191,9 @@ equipables {
 
 experimental {
     B:"Items can be thrown into smelteries"=true
+
+    # Warning: Very buggy
+    B:"Use new adaptive Smeltery code"=false
 }
 
 
@@ -172,6 +203,16 @@ experimental {
 
 general {
     I:"Sea level"=64
+}
+
+
+####################
+# logic
+####################
+
+logic {
+    I:LengthWire=15074
+    I:SpoolWire=15075
 }
 
 
@@ -200,6 +241,7 @@ looks {
 ####################
 
 "patterns and misc" {
+    I:"Armor Pattern"=15076
     I:"Blank Patterns"=15007
     I:Buckets=15008
     I:"Essence Crystal"=15009
@@ -215,6 +257,28 @@ looks {
     I:"Tool Rod"=15018
     I:"Tool Shard"=15019
     I:"Wood Pattern"=15020
+}
+
+
+####################
+# smeltery output modification
+####################
+
+"smeltery output modification" {
+    # Number of ingots returned from smelting Aluminum Brass in the smeltery
+    I:"Aluminum Brass ingot return"=4
+
+    # Number of ingots returned from smelting Alumite in the smeltery
+    I:"Alumite ingot return"=3
+
+    # Number of ingots returned from smelting Bronze in the smeltery
+    I:"Bronze ingot return"=3
+
+    # Number of ingots returned from smelting ores in the smeltery
+    I:"Ingots per ore"=2
+
+    # Number of ingots returned from smelting Manyullyn in the smeltery
+    I:"Manyullyn ingot return"=1
 }
 
 

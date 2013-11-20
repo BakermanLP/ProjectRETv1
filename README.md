@@ -16,6 +16,7 @@ The used version numbers are here:
 
 ### mods
 * AEPeripheral <http://www.computercraft.info/forums2/index.php?/topic/12663-applied-energistics-peripheral/>
+* Ars Magica2 <http://www.minecraftforum.net/topic/2028696->
 * Applied Energistics <http://ae-mod.info>
 * Barrels <http://www.minecraftforum.net/topic/1694276->
 * Bibliocraft <http://www.minecraftforum.net/topic/1694276->
@@ -35,6 +36,7 @@ The used version numbers are here:
 * EnhancedPortals <http://www.minecraftforum.net/topic/1301217->
 * ExtraCells <http://www.minecraftforum.net/topic/1801643->
 * extrautils <http://www.minecraftforum.net/topic/1776056->
+* Factorization <http://www.minecraftforum.net/topic/1351802->
 * forestry <http://forestry.sengir.net>
 * Forge-GuiLib <http://www.minecraftforum.net/topic/1909236-/>
 * ForgeMultipart <http://files.minecraftforge.net/ForgeMultipart/>
@@ -47,6 +49,7 @@ The used version numbers are here:
 * InventoryTweaks <http://www.minecraftforum.net/topic/1720872->
 * ironchest <http://www.minecraftforum.net/topic/981855->
 * Jammy Furniture Mod <http://www.minecraftforum.net/topic/1098808->
+* LanteaCraft aka SGCraft <http://www.minecraftforum.net/topic/2059956->
 * MFFS <http://universalelectricity.com/mffs>
 * miscperipherals <http://www.computercraft.info/forums2/index.php?/topic/4587->
 * ModularPowersuits <http://machinemuse.net/download.php>
@@ -70,14 +73,12 @@ The used version numbers are here:
 * Soulshards <http://www.minecraftforum.net/topic/1475847->
 * TConstruct <http://www.minecraftforum.net/topic/1659892->
 * Thaumcraft <http://www.minecraftforum.net/topic/2011841->
+* ThermalExpansion <http://www.teamcofh.com>
 * Translocator <http://www.minecraftforum.net/topic/909223->
 * twilightforest <http://www.minecraftforum.net/topic/561673->
 * WR-CBE <http://www.minecraftforum.net/topic/909223->
 * ZansMinimap  <http://www.minecraftforum.net/topic/1116564->
 
 ### mods to be included (some aren't released yet)
-* ThermalExpansion <http://thermalexpansion.wikispaces.com/Downloads>
-* PluginsforForestry <http://denoflionsx.info/>
 * StevesCarts2 <http://www.minecraftforum.net/topic/680276->
-* Ars Magica2 <http://www.minecraftforum.net/topic/1825663-ars-magica-2-ideas/>
 

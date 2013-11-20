@@ -1,0 +1,51 @@
+<!--************************  CustomOreGen gregtech_addon Ores Module *********************************
+*
+*   This file contains Presets, Options, and Distributions for the gregtech_addon
+*
+***********************************************************************************************-->
+<IfModInstalled name="SGCraft">
+  <ConfigSection>
+        <OptionDisplayGroup name='groupSGCraft' displayName='SGCraft Ores' displayState='shown'>
+            <Description> 
+                Distribution options for SGCraft
+            </Description>
+        </OptionDisplayGroup>
+  </ConfigSection>
+  <ConfigSection>
+	<IfCondition condition=':= dimension.generator = "RandomLevelSource"'>
+        <ConfigSection>
+        <Substitute name='SGCraftNaquadaSubstitute' block='stone'>
+            <Description> 
+                Replace Forestry-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='3001'/> 
+        </Substitute>
+        </ConfigSection>
+        <ConfigSection>
+                <Veins name="SGCraftNaquadaVeins" block='3001' inherits='PresetPipeVeins' seed='0x1141'>
+                    <Description> Short sparsely filled tubes starting at bedrock. </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x40FF00FF</WireframeColor>
+                    <Setting name='MotherlodeFrequency' avg=':= 0.8 * _default_'/>
+                    <Setting name='MotherlodeHeight' avg=':= 10/64 * dimension.groundLevel' range='0'/>
+                    <Setting name='MotherlodeSize' avg=':= _default_' range=':= _default_'/>
+                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
+                    <Setting name='OreDensity' avg=':= 1.0 * _default_'/>
+                </Veins>
+                <Veins name="SGCraftNaquadaVeinsLava" block='10' inherits='SGCraftNaquadaVeins' seed='0x1141'>
+                    <Description> Fills center of each tube with lava, forming "kimberlite pipes" </Description>
+                    <Setting name='MotherlodeSize' avg=':= 0.5 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= 0.5 * _default_'/>
+                    <Setting name='OreDensity' avg='1' range='0'/>
+                    <Replaces block='stone'/>
+                    <Replaces block='dirt'/>
+                    <Replaces block='gravel'/>
+                    <Replaces block='3001'/>
+                </Veins>
+        </ConfigSection>
+     </IfCondition>
+  </ConfigSection>
+</IfModInstalled>

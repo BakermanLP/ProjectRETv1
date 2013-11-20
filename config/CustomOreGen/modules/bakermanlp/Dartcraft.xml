@@ -1,0 +1,64 @@
+<!--************************  CustomOreGen Dartcraft Ores Module *********************************
+*
+*   This file contains Presets, Options, and Distributions for the 1 Dartcraft ore:  Power Ore. 
+*
+***********************************************************************************************-->
+  <ConfigSection>
+
+  
+    <!--***************************   Options + Symbols   ***********************************
+    *
+    *   Below are options and symbols for Power Ore, similar to those for the standard ores.
+    *
+    *************************************************************************************-->
+    <ConfigSection>
+    
+        <OptionDisplayGroup name='groupDartcraft' displayName='Dartcraft BKLP' displayState='shown'>
+            <Description> 
+                Distribution options for the Dartcraft ore.
+            </Description>
+        </OptionDisplayGroup>
+       
+        <!--*****************   Power Ore   *********************-->
+    </ConfigSection>    
+   
+    <!--*****************************   Distributions   *************************************
+    *   
+    *   Below are the actual distributions for the overworld and mystcraft ages.
+    *
+    *************************************************************************************-->
+    <IfCondition condition=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'>
+        
+        <!--**********   Vanilla Deposit Removal   *************-->
+        <Substitute name='PowerOreSubstitute' block='1'>
+            <Description> 
+                Replace Dartcraft-generated ore clusters with stone.   
+            </Description>
+            <Comment>  
+                The global option deferredPopulationRange must be large enough to catch all ore clusters (>= 32).
+            </Comment>
+            <Replaces block='powerOre'/> 
+        </Substitute>
+        
+        <!--*****************   Power Ore   *********************-->
+        <ConfigSection>
+       
+                <Veins name='PowerOreVeins' block='powerOre' inherits='PresetVerticalVeins'> 
+                    <Description> 
+                        Isolated veins (no motherlodes) that run vertically.  These veins are fairly common, but a challenge to mine because you have to tunnel straight down.
+                    </Description>  
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x30550000</WireframeColor> 
+                    <Setting name='MotherlodeFrequency' avg=':= 1.1 * _default_'/>
+                    <Setting name='SegmentRadius' avg=':= _default_' range=':= _default_'/>
+                </Veins>
+                <Veins name='PowerOreVeinsMountain' inherits='PowerOreVeins'> 
+                    <Description> This roughly triples the chance of finding Power Ore in Mountains. </Description> 
+                    <Setting name='MotherlodeFrequency' avg=':= 2 * _default_'/> 
+                    <BiomeType name='Mountain'/>    
+                </Veins>
+                
+        </ConfigSection>           
+    </IfCondition>
+    
+  </ConfigSection>
