@@ -182,8 +182,8 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 
 ## LanteaCraft
 * Author: NeoRavencroft
-* License: Unkonw
-* Source URL: <http://www.minecraftforum.net/topic/2059956->
+* License: Gave me permission via forum post
+* Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/lanteacraft.png>
 
 ## Magic Bees
 * Author: MysteriousAges
@@ -225,10 +225,10 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 * License: You are free to add NEIPlugins to your modpack and redistribute it, as long as the modpack is strictly non-profit and none of the other mods are included against their license.
 * Source URL: https://bitbucket.org/mistaqur/nei_plugins/wiki/Home
 
-## Opie + MobiusCore
+## Opis + MobiusCore
 * Author: ProfMobius
-* License: unkown
-* Source URL: http://www.minecraftforum.net/topic/2104497-
+* License: Gave me permission via forum post
+* Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/opis.png>
 
 ## ObsidiPlates
 * Author: Myrathi
@@ -267,9 +267,7 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 
 ## Project Red
 * Authors: Mr_TJP
-* Old License: I have absolutely no problem with you guys using it in Mod Packs.  If you wish to include it, PM me and let me know.  This is not for permission, I just want to know as an FYI how many mod packs its in.  Texture pack makers, go crazy, but its very hard to understand the texture stitching.
-* New License: As it states in the RPSL, you CANNOT under any circumstances include ProjectRed in a mod pack without direct permission from a developer.  Dont ask unless your mod pack is well established.
-* PERMISSION NO (asked via PM)
+* New License: It may be included in a mod pack with other mods, as long as it is (a)non-profit and (b)legal. URL shorteners or other attempts to make money is strictly forbidden without advance written permission.
 * Source URL: http://www.minecraftforum.net/topic/1885652-
 
 ## Railcraft
