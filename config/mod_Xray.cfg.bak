@@ -1,7 +1,0 @@
-#MLProperties: name (type:default) min:max -- information
-#MLProp : toggleXray (boolean:false) -- Toggle toggleXray enabled on start-up?
-#MLProp : radius (int:45) -- Radius for X-ray
-#
-#Mon Nov 18 16:15:43 CET 2013
-radius=45
-toggleXray=false

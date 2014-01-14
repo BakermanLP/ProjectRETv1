@@ -192,8 +192,8 @@ Modpackers: yes, I allow both this and compact solars into modpacks, and being o
 
 ## MFFS
 * Author: Calclavia
-* License: NO PERMISSION
-* Source URL: <http://www.minecraftforum.net/topic/1703498->
+* License: Gave me permission via Mail
+* Source URL: <https://github.com/BakermanLP/Minecraft-ModPack-1.6.2/blob/master/permissions/UE-MFFS.png>
 
 ## MiscPeripherals
 * Author: RichardG867

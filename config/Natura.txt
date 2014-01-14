@@ -5,12 +5,15 @@
 ####################
 
 block {
+    I:"Activator Blaze Rail"=1404
     I:"Amaranth Button"=1300
     I:"Amaranth Fence Gate"=1301
     I:"Amaranth Pressure Plate"=1302
     I:"Amaranth Stairs"=1303
     I:"Amaranth Trapdoor"=1304
     I:Berry_Bush=1305
+    I:"Blaze Hopper"=1405
+    I:"Blaze Rail"=1406
     I:"Bloodwood Block"=1306
     I:"Bloodwood Button"=1307
     I:"Bloodwood Door"=1308
@@ -30,6 +33,7 @@ block {
     I:"Darkwood Pressure Plate"=1322
     I:"Darkwood Stairs"=1323
     I:"Darkwood Trapdoor"=1324
+    I:"Detector Blaze Rail"=1407
     I:"Eucalyptus Door"=1325
     I:"Eucalyputus Button"=1326
     I:"Eucalyputus Fence Gate"=1327
@@ -65,9 +69,17 @@ block {
     I:"Maple Stairs"=1357
     I:"Maple Trapdoor"=1358
     I:"Nether Berry Bush"=1359
+    I:"Nether Dispenser"=1408
+    I:"Nether Dropper"=1416
+    I:"Nether Glass"=1412
+    I:"Nether Lever"=1413
+    I:"Netherrack Button"=1414
+    I:"Netherrack Furnace"=1410
+    I:"Netherrack Pressure Plate"=1415
     I:"Plank Slab One"=1360
     I:"Plank Slab Two"=1361
     I:"Planks Block"=1362
+    I:"Powered Blaze Rail"=1409
     I:"Purple Glowshroom"=1363
     I:"Rare Leaves"=1364
     I:"Rare Log"=1365
@@ -80,6 +92,7 @@ block {
     I:"Redwood Pressure Plate"=1372
     I:"Redwood Stairs"=1373
     I:"Redwood Trapdoor"=1374
+    I:"Respawn Obelisk"=1411
     I:"Saguaro Cactus"=1375
     I:"Sakura Button"=1376
     I:"Sakura Door"=1377
@@ -157,6 +170,7 @@ disabler {
     B:"Generate Thornvines"=true
     B:"Generate Tigerwood Trees"=true
     B:"Generate Willow Trees"=true
+    B:"Obelisks let players respawn in the Nether"=true
     B:"Override Nether"=true
 }
 
@@ -197,6 +211,7 @@ item {
     I:"Darkwood Sword"=13020
     I:"Door Item"=13021
     I:"Empty Bowl"=13022
+    I:"Flint and Blaze"=13055
     I:"Food Items"=13023
     I:"Fusewood Bow"=13024
     I:"Fusewood Hatchet"=13025

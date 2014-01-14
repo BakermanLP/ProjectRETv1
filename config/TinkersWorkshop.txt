@@ -38,6 +38,7 @@ block {
     I:"Air Tank"=1574
     I:Barricade=1501
     I:"Birch Barricade"=1566
+    I:"Blood Channel"=1583
     I:"Casting Channel"=1567
     I:"Clear Glass"=1503
     I:"Clear Stained Glass"=1504
@@ -49,6 +50,8 @@ block {
     I:"Essence Extractor"=1509
     I:"Furnace Slab"=1577
     I:"Glass Pane"=1510
+    I:"Glue Block"=1581
+    I:"Glue Fluid Block"=1582
     I:"Held Item Block"=1511
     I:"Jungle Barricade"=1512
     I:Landmine=1513
@@ -83,6 +86,9 @@ block {
     I:"Molten Tin"=1541
     I:"Multi Brick"=1542
     I:"Multi Brick Fancy"=1543
+    I:"Nether Lava Tank"=1584
+    I:"Nether Seared Block"=1585
+    I:"Nether Smeltery"=1586
     I:"Oak Barricade"=1544
     I:"Ore Berry One"=1545
     I:"Ore Berry Two"=1546
@@ -122,6 +128,7 @@ block {
 ####################
 
 "difficulty changes" {
+    B:"Allow creation of endstone"=true
     B:"Craft Stencil Tables"=true
     B:"Craft metals with Wood Patterns"=false
     B:"Craft vanilla metal blocks"=true
@@ -171,6 +178,10 @@ dimblacklist {
 ####################
 
 equipables {
+    I:Exo-Boots=15077
+    I:Exo-Chestpiece=15078
+    I:Exo-Goggles=15079
+    I:Exo-Legs=15080
     I:Gloves=15000
     I:"Heart Canister"=15001
     I:"Heavy Boots"=15002
@@ -190,6 +201,7 @@ equipables {
 ####################
 
 experimental {
+    B:"Allow horses to be melted down for glue"=true
     B:"Items can be thrown into smelteries"=true
 
     # Warning: Very buggy
@@ -203,6 +215,15 @@ experimental {
 
 general {
     I:"Sea level"=64
+}
+
+
+####################
+# logging
+####################
+
+logging {
+    B:"Disable tool build messages"=false
 }
 
 
@@ -279,6 +300,9 @@ looks {
 
     # Number of ingots returned from smelting Manyullyn in the smeltery
     I:"Manyullyn ingot return"=1
+
+    # Number of ingots returned from smelting Pig Iron in the smeltery
+    I:"Pig Iron ingot return"=1
 }
 
 
